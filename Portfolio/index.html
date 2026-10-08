@@ -31,14 +31,19 @@
     <div class="top-actions">
       <a class="availability" href="#contact"><i></i> Hire me</a>
       <button class="theme-toggle" type="button" aria-label="Switch theme" data-theme-toggle>
-        <span class="theme-icon" data-theme-icon>☾</span>
+        <span class="theme-icon" data-theme-icon>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </span>
       </button>
     </div>
   </header>
 
-  <!-- LEFT-SIDE FIXED NAVIGATION WITH MODERN ICONS (NO NUMBERS, NO SOCIALS) -->
+  <!-- ADAPTIVE NAVIGATION (TOP HORIZONTAL -> RIGHT VERTICAL ON SCROLL) -->
   <aside class="side-nav glass" aria-label="Primary navigation">
-    <span class="nav-caption">Menu</span>
+    <!-- APP ICON AT TOP OF DOCKED SIDEBAR -->
+    <a href="#home" class="nav-avatar-item" aria-label="Home / Sarmad Mahar" title="Sarmad Mahar">
+      <img src="assets/Sarmad_white_bg.png" alt="Sarmad Mahar" />
+    </a>
     <!-- HOME -->
     <a href="#home" data-route="home">
       <span class="nav-icon">
@@ -87,7 +92,7 @@
     <!-- 00 HERO SECTION -->
     <section id="home" class="section hero-section" data-section="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> ENVIRONMENTAL RESEARCHER · GIS EXPERT · CLIMATE EDUCATOR · SOLO DEVELOPER</p>
+        <p class="eyebrow">ENVIRONMENTAL RESEARCHER · GIS EXPERT · CLIMATE EDUCATOR · SOLO DEVELOPER</p>
         <h1>Research that<br /><em>stays close</em> to the ground.</h1>
         <p class="hero-lede">I work across climate, spatial data, and community knowledge, and I love exploring, coding, and discovering.</p>
         <div class="hero-actions">
@@ -104,13 +109,10 @@
         <div class="hero-orbit orbit-a"></div>
         <div class="hero-orbit orbit-b"></div>
         <div class="portrait-card glass">
-          <span class="portrait-label">Field note / 01</span>
           <img src="assets/Sarmad_white_bg.png" alt="Portrait of Sarmad Mahar" />
-          <span class="portrait-location">24° 51′ N<br />67° 00′ E</span>
         </div>
         <div class="floating-note glass">
-          <span class="note-number">01</span>
-          <span>Maps, climate &amp;<br />human stories</span>
+          <span>Sarmad Mahar</span>
         </div>
       </div>
     </section>
@@ -202,6 +204,11 @@
           </div>
           <span class="focus-icon">↗</span>
         </article>
+      </div>
+
+      <!-- TEXT ABOVE SLIDING TOOLS -->
+      <div class="tools-marquee-title">
+        <span class="fact-label">Tools I use</span>
       </div>
 
       <!-- TOOLS SLIDING MARQUEE (RIGHT TO LEFT) -->
@@ -327,6 +334,25 @@
           <p>My experience spans spatial data modeling, climate fellowships, biodiversity advocacy with GiM/GYBN/TENL, and comprehensive sustainability training.</p>
           <a class="button button-primary" href="assets/Sarmad_Mahar_CV.pdf" download="Sarmad_Mahar_CV.pdf" target="_blank">Download my CV <span>↓</span></a>
           <span class="cv-note">Direct download · Updated 2-page CV (PDF)</span>
+
+          <!-- PHOTO GALLERY PREVIEW FILLING CARD SPACE -->
+          <div class="cv-gallery">
+            <span class="fact-label" style="margin-top: 26px; display: block;">Fieldwork &amp; Engagements</span>
+            <div class="cv-gallery-grid">
+              <div class="cv-gallery-thumb" title="Addressing audience on microphone">
+                <img src="assets/work_image1_adressing_on_mic.jpg" alt="Sarmad Mahar speaking on mic" />
+              </div>
+              <div class="cv-gallery-thumb" title="Holding award">
+                <img src="assets/work_holding_award.jpg" alt="Holding award" />
+              </div>
+              <div class="cv-gallery-thumb" title="Laboratory research">
+                <img src="assets/work_lab_photo.jpg" alt="Lab research" />
+              </div>
+              <div class="cv-gallery-thumb" title="Seminars &amp; Youth Climate Leadership">
+                <img src="assets/work_seminar_collage.jpg" alt="Youth seminars collage" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -342,10 +368,10 @@
           <h2>Hire me or have<br /><em>a conversation</em></h2>
           <p class="contact-copy">For research collaborations, environmental storytelling, GIS projects, or just have a conversation.</p>
         </div>
-        <!-- ICON-ONLY SOCIAL DOCK (NO TEXT) -->
+        <!-- ICON-ONLY SOCIAL DOCK (GMAIL ENLARGED) -->
         <div class="social-icons-dock">
-          <!-- EMAIL -->
-          <a class="social-circle-btn" href="mailto:sarmadmaharofficial@gmail.com" title="Email: sarmadmaharofficial@gmail.com" aria-label="Email">
+          <!-- GMAIL (ENLARGED CIRCLE) -->
+          <a class="social-circle-btn gmail-circle-btn" href="mailto:sarmadmaharofficial@gmail.com" title="Email: sarmadmaharofficial@gmail.com" aria-label="Email">
             <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           </a>
           <!-- WHATSAPP -->
@@ -371,15 +397,13 @@
         </div>
       </div>
 
-      <!-- WEBSITE INQUIRY CARD (MATCHING THE CONTACT PANEL STYLING) -->
-      <div class="contact-panel glass" style="margin-top: 40px;">
+      <!-- WEBSITE INQUIRY CARD (ONLY THE REQUESTED TEXT AND BUTTON) -->
+      <div class="contact-panel glass" style="margin-top: 40px; padding: 40px 50px;">
         <div>
-          <span class="card-kicker">Web Design &amp; Solo Development</span>
-          <h2>Want a website like this?<br /><em>Contact me!</em></h2>
-          <p class="contact-copy">I design and build ultra-fast, modern, responsive portfolio websites and spatial dashboards tailored for researchers, creatives, and forward-thinking initiatives.</p>
+          <h2 style="font-size: clamp(28px, 3.6vw, 44px); margin: 0;">Want a website like this?<br /><em>Contact me!</em></h2>
         </div>
-        <div style="display: flex; align-items: center; justify-content: center;">
-          <a class="button button-primary" style="padding: 18px 36px; font-size: 13px;" href="mailto:sarmadmaharofficial@gmail.com?subject=Website%20Inquiry%20from%20Portfolio">
+        <div style="display: flex; align-items: center; justify-content: flex-end;">
+          <a class="button button-primary" style="padding: 16px 34px; font-size: 13px;" href="mailto:sarmadmaharofficial@gmail.com?subject=Website%20Inquiry%20from%20Portfolio">
             Contact me! <span>↗</span>
           </a>
         </div>
