@@ -79,18 +79,16 @@ if (themeToggle) {
   });
 }
 
-// ADAPTIVE NAVBAR SCROLL HANDLER (TOP HORIZONTAL -> RIGHT VERTICAL DOCK)
-const sideNav = document.querySelector('.side-nav');
+// ADAPTIVE NAVBAR SCROLL HANDLER (TOP HORIZONTAL -> LEFT VERTICAL DOCK)
 function handleNavScroll() {
-  if (!sideNav) return;
   if (window.innerWidth <= 650) {
-    sideNav.classList.remove('docked-right');
+    document.body.classList.remove('nav-scrolled');
     return;
   }
   if (window.scrollY > 85) {
-    sideNav.classList.add('docked-right');
+    document.body.classList.add('nav-scrolled');
   } else {
-    sideNav.classList.remove('docked-right');
+    document.body.classList.remove('nav-scrolled');
   }
 }
 

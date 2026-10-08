@@ -38,48 +38,81 @@
     </div>
   </header>
 
-  <!-- ADAPTIVE NAVIGATION (TOP HORIZONTAL -> RIGHT VERTICAL ON SCROLL) -->
-  <aside class="side-nav glass" aria-label="Primary navigation">
-    <!-- APP ICON AT TOP OF DOCKED SIDEBAR -->
-    <a href="#home" class="nav-avatar-item" aria-label="Home / Sarmad Mahar" title="Sarmad Mahar">
-      <img src="assets/Sarmad_white_bg.png" alt="Sarmad Mahar" />
-    </a>
-    <!-- HOME -->
+  <!-- TOP HORIZONTAL NAVIGATION (AT PAGE TOP) -->
+  <nav class="top-nav glass" aria-label="Top navigation">
     <a href="#home" data-route="home">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
       </span>
       <span>Home</span>
     </a>
-    <!-- ABOUT -->
     <a href="#about" data-route="about">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </span>
       <span>About</span>
     </a>
-    <!-- FOCUS -->
     <a href="#focus" data-route="focus">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
       </span>
       <span>Focus</span>
     </a>
-    <!-- WORK -->
     <a href="#work" data-route="work">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
       </span>
       <span>Work</span>
     </a>
-    <!-- CV -->
     <a href="#cv" data-route="cv">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/><path d="M6 14h6"/></svg>
       </span>
       <span>CV</span>
     </a>
-    <!-- CONTACT -->
+    <a href="#contact" data-route="contact">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      </span>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <!-- LEFT SIDEBAR NAVIGATION (SLIDES IN ON SCROLL) -->
+  <aside class="side-nav glass" aria-label="Sidebar navigation">
+    <a href="#home" class="nav-avatar-item" aria-label="Home / Sarmad Mahar" title="Sarmad Mahar">
+      <img src="assets/Sarmad_white_bg.png" alt="Sarmad Mahar" />
+    </a>
+    <a href="#home" data-route="home">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </span>
+      <span>Home</span>
+    </a>
+    <a href="#about" data-route="about">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </span>
+      <span>About</span>
+    </a>
+    <a href="#focus" data-route="focus">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+      </span>
+      <span>Focus</span>
+    </a>
+    <a href="#work" data-route="work">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+      </span>
+      <span>Work</span>
+    </a>
+    <a href="#cv" data-route="cv">
+      <span class="nav-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/><path d="M6 14h6"/></svg>
+      </span>
+      <span>CV</span>
+    </a>
     <a href="#contact" data-route="contact">
       <span class="nav-icon">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
