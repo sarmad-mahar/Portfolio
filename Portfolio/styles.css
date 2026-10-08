@@ -1039,13 +1039,14 @@ em {
 .cv-gallery-grid {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   margin-top: 16px;
 }
 
 .cv-gallery-thumb {
   width: 100%;
-  height: 150px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--line-strong);
