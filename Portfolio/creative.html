@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070e17" />
+  <meta name="description" content="Creative Portfolio — Sarmad Mahar. Cartography, photography, graphic design, videography, and tools." />
+  <meta property="og:title" content="Creative Portfolio — Sarmad Mahar" />
+  <meta property="og:description" content="Visual storytelling across maps, lenses, designs, motion, and digital tools." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/Sarmad_white_bg.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Creative Portfolio — Sarmad Mahar</title>
+  <style>
+    .creative-header-hero {
+      text-align: center;
+      max-width: 800px;
+      margin: 40px auto 20px;
+    }
+    .back-nav-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      transition: 0.25s;
+    }
+    .back-nav-pill:hover {
+      background: var(--accent);
+      color: #ffffff;
+      transform: translateX(-3px);
+    }
+    .constellation-intro {
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 600px;
+      margin: 15px auto 0;
+    }
+    .section-anchor {
+      scroll-margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="contours contours-one" aria-hidden="true"></div>
+  <div class="contours contours-two" aria-hidden="true"></div>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Sarmad Mahar Portfolio">
+      <img class="brand-avatar" src="assets/Sarmad_white_bg.png" alt="Sarmad Mahar" />
+      <span class="brand-mark">Portfolio<span>/</span></span>
+      <span class="brand-copy"><strong>Sarmad Mahar</strong></span>
+    </a>
+    <div class="top-actions">
+      <a class="availability" href="index.html#contact"><i></i> Hire me</a>
+      <button class="theme-toggle" type="button" aria-label="Switch theme" data-theme-toggle>
+        <span class="theme-icon" data-theme-icon>☾</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- LEFT-SIDE FIXED NAVIGATION -->
+  <aside class="side-nav glass" aria-label="Primary navigation">
+    <span class="nav-caption">Creative</span>
+    <a href="index.html" title="Main Portfolio">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+      <span>Main</span>
+    </a>
+    <a href="#cartography" title="Cartography">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg></span>
+      <span>Maps</span>
+    </a>
+    <a href="#photography" title="Photography">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+      <span>Photo</span>
+    </a>
+    <a href="#graphic-design" title="Graphic Design">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></span>
+      <span>Design</span>
+    </a>
+    <a href="#videography" title="Videography">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+      <span>Video</span>
+    </a>
+    <a href="#tools" title="Tools">
+      <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+      <span>Tools</span>
+    </a>
+  </aside>
+
+  <main>
+    <section class="section">
+      <div class="creative-header-hero">
+        <a class="back-nav-pill" href="index.html#focus">
+          <span>← Back to Main Portfolio</span>
+        </a>
+        <p class="eyebrow" style="justify-content: center;"><span class="eyebrow-dot"></span> CREATIVE PORTFOLIO &amp; VISUAL STORYTELLING</p>
+        <h1 style="font-family: var(--display); font-size: clamp(38px, 5.5vw, 68px); letter-spacing: -0.06em; line-height: 1;">
+          Visualizing Evidence.<br /><em>Crafting Stories.</em>
+        </h1>
+        <p class="constellation-intro">
+          A multidisciplinary creative suite bridging scientific rigor with aesthetic communication across 5 distinct domains. Click any circle to explore its page.
+        </p>
+      </div>
+
+      <!-- 5 CIRCLES INTERACTIVE HUB -->
+      <div class="circles-constellation">
+        <!-- CIRCLE 1: CARTOGRAPHY -->
+        <a class="circle-node glass" href="cartography.html" title="Explore Cartography Page">
+          <div class="circle-icon">🗺️</div>
+          <h3 class="circle-title">Cartography</h3>
+          <span class="circle-tag">Spatial Maps</span>
+        </a>
+
+        <!-- CIRCLE 2: PHOTOGRAPHY -->
+        <a class="circle-node glass" href="photography.html" title="Explore Photography Page">
+          <div class="circle-icon">📷</div>
+          <h3 class="circle-title">Photography</h3>
+          <span class="circle-tag">Field &amp; Lens</span>
+        </a>
+
+        <!-- CIRCLE 3: GRAPHIC DESIGN -->
+        <a class="circle-node glass" href="graphic-design.html" title="Explore Graphic Design Page">
+          <div class="circle-icon">🎨</div>
+          <h3 class="circle-title">Graphic Design</h3>
+          <span class="circle-tag">Brand &amp; UI</span>
+        </a>
+
+        <!-- CIRCLE 4: VIDEOGRAPHY -->
+        <a class="circle-node glass" href="videography.html" title="Explore Videography Page">
+          <div class="circle-icon">🎬</div>
+          <h3 class="circle-title">Videography</h3>
+          <span class="circle-tag">Motion &amp; Reels</span>
+        </a>
+
+        <!-- CIRCLE 5: TOOLS -->
+        <a class="circle-node glass" href="tools.html" title="Explore Tools Page">
+          <div class="circle-icon">🛠️</div>
+          <h3 class="circle-title">Tools</h3>
+          <span class="circle-tag">Tech &amp; Stack</span>
+        </a>
+      </div>
+
+      <!-- SHOWCASE SECTIONS -->
+      <div class="section-anchor" id="cartography">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Cartography</p>
+          <h2>The Art &amp; Science<br /><em>of Mapmaking.</em></h2>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-card glass">
+            <span class="fact-label">Thematic Maps</span>
+            <h3>Drought &amp; SPI Precipitation Deficits</h3>
+            <p>Spatial modeling of arid landscapes, drought severity classification, and NEX-GDDP-CMIP downscaled climate scenarios.</p>
+            <a class="button button-outline" href="cartography.html">Open Cartography Page <span>↗</span></a>
+          </article>
+          <article class="showcase-card glass">
+            <span class="fact-label">Remote Sensing &amp; Topography</span>
+            <h3>Coastal Soil Salinity &amp; Degradation</h3>
+            <p>Multi-temporal satellite indices and contour layers mapping mangrove forest shifts along the Sindh coastline.</p>
+            <a class="button button-outline" href="cartography.html">View Case Studies <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="section-anchor" id="photography" style="margin-top: 80px;">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Photography</p>
+          <h2>The Camera as a<br /><em>Field Instrument.</em></h2>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-card glass">
+            <span class="fact-label">Field &amp; Ecology</span>
+            <h3>Living Landscapes of Sindh</h3>
+            <p>Capturing the human dimension of climate vulnerability, indigenous agricultural techniques, and biodiversity habitats.</p>
+            <a class="button button-outline" href="photography.html">Open Photography Page <span>↗</span></a>
+          </article>
+          <article class="showcase-card glass">
+            <span class="fact-label">Documentary</span>
+            <h3>Forest Ecosystem Surveys</h3>
+            <p>Field documentation from Miani Forest Department surveys, capturing carbon monitoring plots and community stewards.</p>
+            <a class="button button-outline" href="photography.html">Explore Gallery <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="section-anchor" id="graphic-design" style="margin-top: 80px;">
+        <div class="section-heading">
+          <p class="eyebrow">03 / Graphic Design</p>
+          <h2>Clarifying Complex<br /><em>Information.</em></h2>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-card glass">
+            <span class="fact-label">Scientific Infographics</span>
+            <h3>Climate Data Posters &amp; Reports</h3>
+            <p>Distilling dense academic datasets and policy reports into clear, engaging visual summaries for youth and community workshops.</p>
+            <a class="button button-outline" href="graphic-design.html">Open Graphic Design Page <span>↗</span></a>
+          </article>
+          <article class="showcase-card glass">
+            <span class="fact-label">Identity &amp; Layout</span>
+            <h3>Advocacy Campaign Toolkits</h3>
+            <p>Branding, social campaign kits, and presentation design for Green Impact Movement and Youth Biodiversity initiatives.</p>
+            <a class="button button-outline" href="graphic-design.html">View Design Projects <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="section-anchor" id="videography" style="margin-top: 80px;">
+        <div class="section-heading">
+          <p class="eyebrow">04 / Videography</p>
+          <h2>Motion, Sound &amp;<br /><em>Climate Storytelling.</em></h2>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-card glass">
+            <span class="fact-label">Editing &amp; Direction</span>
+            <h3>Short Form Climate Education</h3>
+            <p>Dynamic reels, webinar recaps, and micro-explainer videos edited in Premiere Pro and CapCut for maximum reach on social media.</p>
+            <a class="button button-outline" href="videography.html">Open Videography Page <span>↗</span></a>
+          </article>
+          <article class="showcase-card glass">
+            <span class="fact-label">Field Footage</span>
+            <h3>Survey &amp; Conservation Recaps</h3>
+            <p>Combining drone footage, time-lapses, and interview snippets into cohesive environmental video narratives.</p>
+            <a class="button button-outline" href="videography.html">Watch Reels &amp; Edits <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="section-anchor" id="tools" style="margin-top: 80px;">
+        <div class="section-heading">
+          <p class="eyebrow">05 / Tools &amp; Technologies</p>
+          <h2>The Digital &amp; Spatial<br /><em>Toolkit.</em></h2>
+        </div>
+        <div class="showcase-card glass" style="padding: 36px;">
+          <p style="color: var(--muted); margin-bottom: 20px;">
+            A versatile set of industry-standard tools spanning GIS, geospatial coding, graphic design, and video production.
+          </p>
+          <div class="tools-list" style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <div class="tool-slide-card">ArcGIS Pro</div>
+            <div class="tool-slide-card">Google Earth Engine</div>
+            <div class="tool-slide-card">ENVI</div>
+            <div class="tool-slide-card">Leaflet</div>
+            <div class="tool-slide-card">Python</div>
+            <div class="tool-slide-card">R</div>
+            <div class="tool-slide-card">JavaScript</div>
+            <div class="tool-slide-card">Canva</div>
+            <div class="tool-slide-card">Figma</div>
+            <div class="tool-slide-card">Stitch</div>
+            <div class="tool-slide-card">CapCut</div>
+            <div class="tool-slide-card">Premiere Pro</div>
+          </div>
+          <div style="margin-top: 24px;">
+            <a class="button button-primary" href="tools.html">Explore Detailed Tools Breakdown <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- WEBSITE INQUIRY CARD -->
+      <div class="contact-panel glass" style="margin-top: 70px;">
+        <div>
+          <span class="card-kicker">Collaborate &amp; Create</span>
+          <h2>Need creative storytelling<br /><em>or a modern site?</em></h2>
+          <p class="contact-copy">Whether you need compelling maps, clean graphic design, or a bespoke portfolio website like this one, let's talk.</p>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <a class="button button-primary" style="padding: 18px 36px; font-size: 13px;" href="index.html#contact">
+            Contact me! <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <span>© 2026 Sarmad Mahar</span>
+        <div class="footer-socials">
+          <a class="footer-social-btn" href="https://www.instagram.com/sarmadcaptures/" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a class="footer-social-btn" href="https://wa.me/923052676986" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          </a>
+          <a class="footer-social-btn" href="https://www.linkedin.com/in/sarmadmahar/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a class="footer-social-btn" href="https://github.com/sarmad-mahar" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a class="footer-social-btn" href="https://orcid.org/0009-0003-9533-2357" target="_blank" rel="noreferrer" aria-label="ORCID">
+            <svg viewBox="0 0 32 32"><path d="M16 0c-8.839 0-16 7.161-16 16s7.161 16 16 16c8.839 0 16-7.161 16-16s-7.161-16-16-16zM9.823 5.839c0.704 0 1.265 0.573 1.265 1.26 0 0.688-0.561 1.265-1.265 1.265-0.692-0.004-1.26-0.567-1.26-1.265 0-0.697 0.563-1.26 1.26-1.26zM8.864 9.885h1.923v13.391h-1.923zM13.615 9.885h5.197c4.948 0 7.125 3.541 7.125 6.703 0 3.439-2.687 6.699-7.099 6.699h-5.224zM15.536 11.625v9.927h3.063c4.365 0 5.365-3.312 5.365-4.964 0-2.687-1.713-4.963-5.464-4.963z"/></svg>
+          </a>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
