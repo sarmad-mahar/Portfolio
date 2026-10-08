@@ -1037,17 +1037,16 @@ em {
 
 /* CV CARD GALLERY PREVIEWS */
 .cv-gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
 }
 
 .cv-gallery-thumb {
-  aspect-ratio: 1 / 1;
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  height: 150px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--line-strong);
   position: relative;
