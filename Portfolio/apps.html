@@ -53,162 +53,195 @@
           <em>Mini Projects.</em>
         </h1>
         <p class="store-hero-desc">
-          A dedicated software studio where you can download my free productivity tools, explore research &amp; creator utilities, or purchase custom-built tools tailored for your needs. For inquiries, licenses, or custom orders, contact me directly at <a href="mailto:info@sarmadmahar.com" style="color: var(--accent); font-weight: 600; text-decoration: underline;">info@sarmadmahar.com</a>.
+          Browse my software catalog below. Click on any app to open its full studio view with feature breakdowns, live previews, free downloads, or custom licensing options. For custom orders, write to <a href="mailto:info@sarmadmahar.com" style="color: var(--accent); font-weight: 600; text-decoration: underline;">info@sarmadmahar.com</a>.
         </p>
 
-        <!-- STORE CATEGORY TABS -->
+        <!-- CATEGORY FILTER TABS -->
         <div class="store-filter-bar">
-          <a class="store-pill-filter active" href="#all">All Software (4)</a>
-          <a class="store-pill-filter" href="#free">Free Downloads</a>
-          <a class="store-pill-filter" href="#social">Creator Studios</a>
-          <a class="store-pill-filter" href="#gis">GIS &amp; Spatial</a>
-          <a class="store-pill-filter" href="#buy">Commercial Tools</a>
+          <button class="store-pill-filter active" data-filter="all">All Apps (11)</button>
+          <button class="store-pill-filter" data-filter="ai-study">AI &amp; Study (2)</button>
+          <button class="store-pill-filter" data-filter="social">Social &amp; Media (2)</button>
+          <button class="store-pill-filter" data-filter="productivity">Productivity (3)</button>
+          <button class="store-pill-filter" data-filter="gis">GIS &amp; Spatial (3)</button>
+          <button class="store-pill-filter" data-filter="privacy">Privacy &amp; Files (1)</button>
         </div>
       </section>
 
-      <!-- FEATURED APP #1: SOCIAL SAATHI -->
-      <section id="social-saathi" class="featured-app-card glass">
-        <div class="featured-app-layout">
-          <div>
-            <div class="app-meta-badges">
-              <span class="badge-tag badge-featured">★ FEATURED STUDIO APP</span>
-              <span class="badge-tag badge-free">FREE RELEASE</span>
-              <span class="badge-tag badge-version">v1.0 READY</span>
+      <!-- COMPACT APPS GRID (ALL APPS AT USER'S VIEW) -->
+      <section class="store-grid" id="apps-grid">
+        <!-- 1. SOCIAL SAATHI -->
+        <article class="store-card glass" data-app="social-saathi" data-category="social">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </div>
-
-            <div class="app-title-group">
-              <h2>Social Saathi</h2>
-              <span class="app-tagline">Multi-Platform Social Media Publishing &amp; Studio Suite</span>
-            </div>
-
-            <p class="app-description">
-              <strong>Social Saathi</strong> is a unified creator workspace built to draft, preview, format, and upload content across multiple social platforms simultaneously without switching tabs or losing formatting. Perfect for solo developers, researchers, and creators looking to streamline their digital presence.
-            </p>
-
-            <div class="app-feature-list">
-              <div class="app-feature-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Simultaneous Multi-Network Upload</span>
-              </div>
-              <div class="app-feature-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Live Cross-Platform Canvas Previews</span>
-              </div>
-              <div class="app-feature-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Smart Caption &amp; Hashtag Templates</span>
-              </div>
-              <div class="app-feature-item">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Zero Cloud Logging · 100% Privacy</span>
-              </div>
-            </div>
-
-            <div class="app-cta-row">
-              <a class="button button-primary" href="mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20Social%20Saathi%20App&body=Hi%20Sarmad%2C%20I%20would%20like%20to%20access%2Fdownload%20Social%20Saathi%20v1.0.">
-                Get Social Saathi Free <span>↓</span>
-              </a>
-              <a class="button button-outline" href="mailto:info@sarmadmahar.com?subject=Custom%20Social%20Saathi%20Integration&body=Hi%20Sarmad%2C%20I%20want%20to%20inquire%20about%20a%20custom%20version%20of%20Social%20Saathi%20for%20my%20team.">
-                Custom Setup / Buy <span>↗</span>
-              </a>
-              <a class="button button-outline" href="https://www.youtube.com/@gisguide" target="_blank" rel="noreferrer" title="Watch Social Saathi tutorial on YouTube">
-                Watch Tutorial <span style="font-size: 13px;">▶</span>
-              </a>
-            </div>
+            <span class="badge-tag badge-featured">★ FEATURED</span>
           </div>
-
-          <!-- APP PREVIEW VISUAL -->
-          <div class="app-preview-visual">
-            <div class="preview-screen-mockup">
-              <div class="mockup-header-dots">
-                <span class="mockup-dot"></span>
-                <span class="mockup-dot"></span>
-                <span class="mockup-dot"></span>
-              </div>
-              <div style="font-family: var(--display); font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 8px;">
-                Social Saathi Studio
-              </div>
-              <div style="font-size: 11px; color: var(--accent); margin-bottom: 12px;">
-                ● Connected: LinkedIn, YouTube, Instagram, X
-              </div>
-              <div style="background: rgba(255, 255, 255, 0.04); border: 1px dashed var(--line); border-radius: 8px; padding: 12px; font-size: 11px; color: var(--muted); line-height: 1.5;">
-                [ Post Composer ]<br />
-                "Writing my latest field note on mangrove carbon sequestration across the Indus delta..."
-              </div>
-              <div style="display: flex; gap: 8px; margin-top: 12px;">
-                <span style="font-size: 9px; padding: 3px 8px; border-radius: 4px; background: rgba(14, 165, 233, 0.15); color: var(--accent);">Ready to Dispatch</span>
-                <span style="font-size: 9px; padding: 3px 8px; border-radius: 4px; background: rgba(34, 197, 94, 0.15); color: #4ade80;">All Targets Synced</span>
-              </div>
-            </div>
-            <div style="font-size: 11px; color: var(--faint); text-align: center;">
-              Built by Sarmad Mahar · Free Community Release
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- REGULAR APPS & TOOLS GRID -->
-      <section class="store-grid">
-        <!-- TOOL 2: GEOBOUND SPATIAL VIEWER -->
-        <article class="store-card glass">
-          <div class="store-card-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
-          </div>
-          <div class="app-meta-badges">
-            <span class="badge-tag badge-free">FREE TOOL</span>
-            <span class="badge-tag badge-version">GIS / WEB</span>
-          </div>
-          <h3>GeoBound Spatial Viewer</h3>
-          <p>
-            An ultra-lightweight, in-browser geospatial viewer to drop and visualize Shapefiles, GeoJSON, and satellite index bands without installing heavy software.
-          </p>
+          <h3>Social Saathi</h3>
+          <p>Social studio for formatting &amp; dispatching posts across multiple social platforms simultaneously.</p>
           <div class="store-card-footer">
-            <span style="font-size: 12px; font-weight: 700; color: #4ade80;">100% Free</span>
-            <a class="text-link" href="mailto:info@sarmadmahar.com?subject=Access%20GeoBound%20Viewer">
-              Access Tool <span>→</span>
-            </a>
+            <span class="badge-tag badge-free">Free v1.0</span>
+            <span class="store-card-btn">View Studio ↗</span>
           </div>
         </article>
 
-        <!-- TOOL 3: ENVIRODATA CALCULATOR -->
-        <article class="store-card glass">
-          <div class="store-card-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <!-- 2. STUDY BUDDY (AI MCQS) -->
+        <article class="store-card glass" data-app="study-buddy" data-category="ai-study">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 3.36 2.07 6.24 5 7.42V20a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2.58c2.93-1.18 5-4.06 5-7.42a8 8 0 0 0-8-8z"/><path d="M9 13h6"/></svg>
+            </div>
+            <span class="badge-tag badge-free">AI POWERED</span>
           </div>
-          <div class="app-meta-badges">
-            <span class="badge-tag badge-pro">COMMERCIAL APP</span>
-            <span class="badge-tag badge-version">RESEARCH</span>
-          </div>
-          <h3>EnviroData Carbon Engine</h3>
-          <p>
-            Standardized greenhouse gas and biomass sequestration estimation calculator built for environmental audits, university labs, and sustainability reporting.
-          </p>
+          <h3>Study Buddy</h3>
+          <p>Generates interactive MCQs and study quizzes from uploaded PDFs, Word, Markdown, or JSON files using AI.</p>
           <div class="store-card-footer">
-            <span style="font-size: 12px; font-weight: 700; color: #facc15;">Inquire to Buy</span>
-            <a class="text-link" href="mailto:info@sarmadmahar.com?subject=Inquiry%20to%20Buy%20EnviroData%20Carbon%20Engine">
-              Contact to Buy <span>↗</span>
-            </a>
+            <span class="badge-tag badge-free">Free Tool</span>
+            <span class="store-card-btn">View Studio ↗</span>
           </div>
         </article>
 
-        <!-- TOOL 4: FASTFOLIO ENGINE -->
-        <article class="store-card glass">
-          <div class="store-card-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <!-- 3. STUDY AREA APP (SMARTPHONE) -->
+        <article class="store-card glass" data-app="study-area-app" data-category="gis">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <span class="badge-tag badge-version">SMARTPHONE GPS</span>
           </div>
-          <div class="app-meta-badges">
-            <span class="badge-tag badge-pro">CUSTOM ORDER</span>
-            <span class="badge-tag badge-version">WEB ENGINE</span>
-          </div>
-          <h3>FastFolio Website Architecture</h3>
-          <p>
-            The exact lightning-fast, glassmorphism-styled website framework powering this portfolio. Clean code, zero dependencies, full SEO, and mobile-ready.
-          </p>
+          <h3>Study Area App</h3>
+          <p>Field survey tool to delineate, walk perimeters, and map environmental study area boundaries via smartphone.</p>
           <div class="store-card-footer">
-            <span style="font-size: 12px; font-weight: 700; color: var(--accent);">Custom Setup</span>
-            <a class="text-link" href="mailto:info@sarmadmahar.com?subject=FastFolio%20Architecture%20Order">
-              Order Yours <span>↗</span>
-            </a>
+            <span class="badge-tag badge-free">Free Field App</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 4. SINDH UNIVERSITY TEST PREPARATION -->
+        <article class="store-card glass" data-app="sindh-uni-pet" data-category="ai-study">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <span class="badge-tag badge-featured">WEB APP</span>
+          </div>
+          <h3>Sindh Uni Test Prep</h3>
+          <p>Complete mock test simulator, past papers collection, and practice suite for the Pre-Entry Test (PET).</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Live Online</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 5. INSTABANK -->
+        <article class="store-card glass" data-app="instabank" data-category="social">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </div>
+            <span class="badge-tag badge-free">INSTAGRAM STUDIO</span>
+          </div>
+          <h3>InstaBank</h3>
+          <p>Helps you create aesthetic carousel slides, organize caption banks, and plan/schedule Instagram posts.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free / Pro</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 6. FOCUS LAUNCHER -->
+        <article class="store-card glass" data-app="focus-launcher" data-category="productivity">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 19 21 12 17 5 21 12 2"/></svg>
+            </div>
+            <span class="badge-tag badge-version">ANDROID APP</span>
+          </div>
+          <h3>Focus Launcher</h3>
+          <p>A minimalist, typography-driven smartphone launcher that eliminates phone distraction and boosts deep work.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free APK</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 7. WALLPAPER SWIPER (PEXELS) -->
+        <article class="store-card glass" data-app="wallpaper-swiper" data-category="productivity">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+            </div>
+            <span class="badge-tag badge-free">PEXELS API</span>
+          </div>
+          <h3>Wallpaper Swiper</h3>
+          <p>Fluid swipe-discovery app connected to the Pexels API to preview and set 4K photography wallpapers with 1 tap.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free Release</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 8. CHIT (NOTES & TASKS) -->
+        <article class="store-card glass" data-app="chit-notes" data-category="productivity">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <span class="badge-tag badge-free">NOTES &amp; TASKS</span>
+          </div>
+          <h3>Chit</h3>
+          <p>Lightning-fast personal notetaking, markdown scratchpad, and daily task checklist with offline storage.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free Web App</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 9. KINFILES (GOOGLE DRIVE VAULT) -->
+        <article class="store-card glass" data-app="kinfiles" data-category="privacy">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/><line x1="12" x2="12" y1="11" y2="17"/><line x1="9" x2="15" y1="14" y2="14"/></svg>
+            </div>
+            <span class="badge-tag badge-pro">PRIVACY VAULT</span>
+          </div>
+          <h3>KinFiles</h3>
+          <p>Family document organizer that stores your essential files directly to your Google Drive for zero-cloud privacy.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free / Private</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 10. GEOBOUND SPATIAL VIEWER -->
+        <article class="store-card glass" data-app="geobound" data-category="gis">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+            </div>
+            <span class="badge-tag badge-free">GIS UTILITY</span>
+          </div>
+          <h3>GeoBound Viewer</h3>
+          <p>In-browser GIS Shapefile &amp; GeoJSON visualizer with instant satellite layer toggles and area measurement.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-free">Free Online</span>
+            <span class="store-card-btn">View Studio ↗</span>
+          </div>
+        </article>
+
+        <!-- 11. ENVIRODATA CARBON ENGINE -->
+        <article class="store-card glass" data-app="envirodata" data-category="gis">
+          <div class="store-card-header">
+            <div class="store-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span class="badge-tag badge-pro">COMMERCIAL</span>
+          </div>
+          <h3>EnviroData Carbon</h3>
+          <p>Standardized greenhouse gas and biomass carbon sequestration estimation calculator for research audits.</p>
+          <div class="store-card-footer">
+            <span class="badge-tag badge-pro">Inquire to Buy</span>
+            <span class="store-card-btn">View Studio ↗</span>
           </div>
         </article>
       </section>
@@ -219,14 +252,14 @@
           <span class="fact-label" style="display: block; margin-bottom: 10px;">Tailored Development &amp; Licensing</span>
           <h2>Want a custom app or looking to buy software?</h2>
           <p>
-            I build bespoke web applications, multi-platform studio bots, and geospatial dashboards. If you want a tailored tool for your organization or want to buy one of my apps, send me a message directly at <strong>info@sarmadmahar.com</strong>.
+            I design and build tailored web applications, smartphone utilities, and geospatial dashboards. If you want a custom tool for your organization or want to purchase/license an app, write to me directly at <strong>info@sarmadmahar.com</strong>.
           </p>
         </div>
         <div style="display: flex; flex-direction: column; gap: 12px; align-items: flex-start; justify-content: center;">
           <a class="button button-primary" style="padding: 18px 36px; font-size: 14px;" href="mailto:info@sarmadmahar.com?subject=Custom%20App%20%2F%20Tool%20Inquiry%20from%20Store">
             Email info@sarmadmahar.com <span>↗</span>
           </a>
-          <span style="font-size: 11px; color: var(--faint);">Direct response within 24 hours · Freelance &amp; Contract</span>
+          <span style="font-size: 11px; color: var(--faint);">Direct response within 24 hours · Available for hire</span>
         </div>
       </section>
 
@@ -242,6 +275,388 @@
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <!-- INTERACTIVE STUDIO DETAIL DIALOG MODAL (POPUP LIKE SOCIAL SAATHI) -->
+  <div class="app-modal" id="app-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="app-modal-backdrop" id="app-modal-backdrop"></div>
+    <div class="app-modal-dialog glass" id="app-modal-dialog">
+      <button class="app-modal-close-btn" id="app-modal-close" aria-label="Close dialog">✕</button>
+      <div id="modal-dynamic-content">
+        <!-- Content will be injected dynamically by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT FOR COMPACT CARDS & SOCIAL SAATHI MODAL -->
+  <script>
+    const appsData = {
+      'social-saathi': {
+        name: 'Social Saathi',
+        tagline: 'Multi-Platform Social Media Publishing & Studio Suite',
+        badges: ['★ FEATURED STUDIO APP', 'FREE RELEASE', 'v1.0 READY'],
+        description: '<strong>Social Saathi</strong> is a unified creator workspace built to draft, preview, format, and upload content across multiple social platforms simultaneously without switching tabs or losing formatting. Perfect for solo developers, researchers, and creators looking to streamline their digital presence.',
+        features: [
+          'Simultaneous Multi-Network Upload (LinkedIn, YouTube, X, Instagram, WhatsApp)',
+          'Live Cross-Platform Canvas Previews',
+          'Smart Caption & Hashtag Templates',
+          'Zero Cloud Logging · 100% Client-Side Privacy'
+        ],
+        mockupHeader: 'Social Saathi Studio',
+        mockupStatus: '● Connected: LinkedIn, YouTube, Instagram, X',
+        mockupContent: '[ Post Composer ]<br>"Writing my latest field note on mangrove carbon sequestration across the Indus delta..."',
+        mockupBadges: ['Ready to Dispatch', 'All Targets Synced'],
+        primaryBtn: { text: 'Get Social Saathi Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20Social%20Saathi%20App&body=Hi%20Sarmad%2C%20I%20would%20like%20to%20access%2Fdownload%20Social%20Saathi%20v1.0.' },
+        secondaryBtn: { text: 'Custom Setup / Buy', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Custom%20Social%20Saathi%20Integration&body=Hi%20Sarmad%2C%20I%20want%20to%20inquire%20about%20a%20custom%20version%20of%20Social%20Saathi.' },
+        tutorialBtn: { text: 'Watch Tutorial', icon: '▶', url: 'https://www.youtube.com/@gisguide' }
+      },
+      'study-buddy': {
+        name: 'Study Buddy',
+        tagline: 'AI-Powered Study & MCQ Generator from Uploaded Documents',
+        badges: ['AI EDUCATION', 'FREE TOOL', 'v1.2 READY'],
+        description: '<strong>Study Buddy</strong> is an intelligent revision workstation that parses your uploaded PDF, Markdown, Word, or JSON study materials and uses generative AI to instantly craft interactive multiple-choice questions (MCQs), flashcards, and conceptual quizzes with comprehensive explanations.',
+        features: [
+          'Instant parsing of PDF, Word (DOCX), Markdown & JSON files',
+          'Automated AI MCQ generation with difficulty controls',
+          'Deep answer rationale & concept review breakdowns',
+          'Exportable quiz sheets & offline study summaries'
+        ],
+        mockupHeader: 'Study Buddy AI Engine',
+        mockupStatus: '● Document Loaded: Environmental_Impact_Assessment.pdf',
+        mockupContent: '[ Generated MCQ #1 ]<br>"What is the primary indicator used to assess meteorological drought in arid regions?"<br><span style="color: #4ade80;">✓ Answer: B (SPI)</span> · 98% AI Confidence',
+        mockupBadges: ['48 MCQs Generated', 'Instant Quiz Active'],
+        primaryBtn: { text: 'Launch Study Buddy Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20Study%20Buddy%20App&body=Hi%20Sarmad%2C%20I%20would%20like%20to%20try%20Study%20Buddy.' },
+        secondaryBtn: { text: 'Custom AI Setup / Buy', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Custom%20Study%20Buddy%20Integration' },
+        tutorialBtn: { text: 'Watch Tutorial', icon: '▶', url: 'https://www.youtube.com/@gisguide' }
+      },
+      'study-area-app': {
+        name: 'Study Area App',
+        tagline: 'Mobile Field Delineation & Spatial Study Area Boundary Tool',
+        badges: ['SMARTPHONE GPS', 'GIS TOOL', 'OFFLINE READY'],
+        description: '<strong>Study Area App</strong> transforms any smartphone into an environmental survey GPS tracker. Delineate research plots on foot, record high-precision perimeter waypoints, capture geotagged photos and field notes, and export clean GeoJSON/KML polygons directly to ArcGIS Pro or Google Earth Engine.',
+        features: [
+          'High-precision smartphone GPS perimeter tracing',
+          'WGS84, UTM, and elevation coordinate logging',
+          'Geotagged site photography & environmental observations',
+          'One-click export to GeoJSON, KML, and ESRI Shapefile formats'
+        ],
+        mockupHeader: 'Study Area Field GIS',
+        mockupStatus: '● GPS Accuracy: ±2.4m · Coordinates: 25.3960° N, 68.3578° E',
+        mockupContent: '[ Active Delineation: Indus River Delta Sector 4 ]<br>Perimeter: 4.8 km · Area: 1.42 sq km · 16 Waypoints Recorded',
+        mockupBadges: ['GeoJSON Ready', 'Offline Mode Active'],
+        primaryBtn: { text: 'Get Field App Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20Study%20Area%20App' },
+        secondaryBtn: { text: 'Custom GIS Version', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Custom%20Study%20Area%20GIS%20Tool' },
+        tutorialBtn: { text: 'Watch Demo', icon: '▶', url: 'https://www.youtube.com/@gisguide' }
+      },
+      'sindh-uni-pet': {
+        name: 'Sindh University Test Prep',
+        tagline: 'Pre-Entry Test (PET) 2025–2026 Preparation Mock & Past Papers Suite',
+        badges: ['WEB APP', 'FREE ONLINE', 'VERIFIED MCQS'],
+        description: 'An all-in-one preparation portal engineered specifically for University of Sindh aspirants. Features authentic past papers, randomized timed mock tests, and subject drills in English, General Science, Mathematics, and General Knowledge with automatic scoring and merit calculation.',
+        features: [
+          'Full past papers bank with verified answer explanations',
+          'Realistic 100-question timed exam simulator',
+          'Detailed score report & percentile calculation',
+          'Works smoothly on all smartphones and browsers'
+        ],
+        mockupHeader: 'Sindh University PET Suite',
+        mockupStatus: '● Live on GitHub Pages · 1,500+ Questions Indexed',
+        mockupContent: '[ Timed Mock Test Session ]<br>100 Questions · 90 Minutes · Score: 88/100 (Merit Eligible)',
+        mockupBadges: ['Live Web App', 'Instant Access'],
+        primaryBtn: { text: 'Open Live Web App', icon: '↗', url: 'https://sarmad-mahar.github.io/sindh-uni-pet-prep/' },
+        secondaryBtn: { text: 'Contact / Contribute', icon: '✉', url: 'mailto:info@sarmadmahar.com?subject=Sindh%20Uni%20PET%20Prep%20Feedback' },
+        tutorialBtn: null
+      },
+      'instabank': {
+        name: 'InstaBank',
+        tagline: 'Instagram Post Creator, Carousel Studio & Content Organizer',
+        badges: ['SOCIAL STUDIO', 'FREE / PRO', 'CREATOR TOOL'],
+        description: '<strong>InstaBank</strong> is a visual workstation tailored for Instagram creators and brands. Assemble clean multi-slide carousels, store reusable caption & hashtag banks, plan your aesthetic 9-grid feed, and dispatch posts without the friction of mobile keyboards.',
+        features: [
+          'Visual 9-grid feed planner & layout preview',
+          'Multi-slide carousel composer with preset 4:5 aspect ratios',
+          'Categorized caption & hashtag repository with 1-click copy',
+          'Post scheduling reminders and automated notifications'
+        ],
+        mockupHeader: 'InstaBank Workspace',
+        mockupStatus: '● Grid Status: 12 Drafts · 6 Scheduled · 24 Stored in Bank',
+        mockupContent: '[ Carousel Builder ]<br>"5 Essential GIS Maps for Climate Action" -> 7 Slides Prepared · Aspect Ratio 4:5',
+        mockupBadges: ['Visual Grid Synced', 'High-Res Ready'],
+        primaryBtn: { text: 'Get InstaBank Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20InstaBank%20App' },
+        secondaryBtn: { text: 'Buy Pro / Custom Setup', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=InstaBank%20Pro%20Purchase%20Inquiry' },
+        tutorialBtn: { text: 'Watch Tutorial', icon: '▶', url: 'https://www.youtube.com/@gisguide' }
+      },
+      'focus-launcher': {
+        name: 'Focus Launcher',
+        tagline: 'Minimal Android Productivity Launcher to Eliminate Distractions',
+        badges: ['ANDROID APP', 'MINIMALIST', 'ZERO ADS'],
+        description: '<strong>Focus Launcher</strong> replaces cluttered app icons, notification badges, and algorithmic feeds with a pure typography interface. Designed to combat smartphone addiction and reclaim hours of mental clarity and deep work every single day.',
+        features: [
+          'Text-based home screen displaying only your essential tools',
+          'Distraction blocker & scheduled study/work focus modes',
+          'Lightning-fast gesture app search with zero loading time',
+          'Ultra-lightweight APK with negligible battery consumption'
+        ],
+        mockupHeader: 'Focus Launcher UI',
+        mockupStatus: '● Deep Work Mode: Active · Screen Time Saved: -42%',
+        mockupContent: '[ Home Display ]<br>09:42 AM · Friday<br>1. Phone<br>2. Notes<br>3. Maps<br>4. Camera',
+        mockupBadges: ['Zero Ads', 'Open Source Spirit'],
+        primaryBtn: { text: 'Download APK Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Download%20Focus%20Launcher%20APK' },
+        secondaryBtn: { text: 'Support / Buy Pro', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Focus%20Launcher%20Pro%20Inquiry' },
+        tutorialBtn: null
+      },
+      'wallpaper-swiper': {
+        name: 'Wallpaper Swiper',
+        tagline: 'Gesture-Driven 4K Wallpaper Discovery Powered by Pexels API',
+        badges: ['PEXELS POWERED', 'FREE APP', '4K ULTRA HD'],
+        description: '<strong>Wallpaper Swiper</strong> connects directly to the Pexels photography API to offer a vertical swipe interface for discovering breathtaking 4K nature, architecture, and minimalist backgrounds. Set your wallpaper in one tap or save to your personal offline collection.',
+        features: [
+          'Infinite swipe discovery powered by official Pexels photography stream',
+          'Automatic 4K resolution scaling for phones, tablets, and desktop',
+          'One-tap home and lock screen wallpaper setter',
+          'Curated mood filters: Nature, Minimalist, Satellite, Dark'
+        ],
+        mockupHeader: 'Wallpaper Swiper Studio',
+        mockupStatus: '● Pexels 4K Stream: Connected · 250k+ Curated Photos',
+        mockupContent: '[ Active Photo ]<br>"Sindh Desert Sand Dunes at Golden Hour" by Pexels Curators · Resolution: 3840x2160',
+        mockupBadges: ['1-Tap Set Wallpaper', 'Favorite Saved'],
+        primaryBtn: { text: 'Download App Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Download%20Wallpaper%20Swiper%20App' },
+        secondaryBtn: { text: 'Source Code / Inquire', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Wallpaper%20Swiper%20Code%20Inquiry' },
+        tutorialBtn: null
+      },
+      'chit-notes': {
+        name: 'Chit',
+        tagline: 'Lightning-Fast Personal Notetaking & Daily Task Engine',
+        badges: ['PRODUCTIVITY', 'FREE WEB APP', 'OFFLINE FIRST'],
+        description: '<strong>Chit</strong> is an ultra-fast personal scratchpad for spontaneous thoughts, daily agendas, and markdown checklists. With sub-millisecond launch times and local encrypted storage, Chit guarantees you never lose an idea to app loading screens.',
+        features: [
+          'Sub-millisecond launch time with instant auto-save',
+          'Markdown-native editor with interactive task checkboxes',
+          'Tag-based categorization and pinned desktop sticky notes',
+          '100% offline-first local storage with JSON export'
+        ],
+        mockupHeader: 'Chit Notes & Tasks',
+        mockupStatus: '● Local Storage: Encrypted · 42 Active Chits',
+        mockupContent: '[ Pinned Chit ]<br>"Fieldwork checklist: 1. Calibrate GPS receiver 2. Gather soil moisture samples 3. Record drone flight path"',
+        mockupBadges: ['Auto-Saved', 'Instant Search'],
+        primaryBtn: { text: 'Launch Chit Web App', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20Chit%20App' },
+        secondaryBtn: { text: 'Custom Setup / Buy', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Chit%20Custom%20Deployment' },
+        tutorialBtn: null
+      },
+      'kinfiles': {
+        name: 'KinFiles',
+        tagline: 'Family Document Organizer with Direct Google Drive Storage',
+        badges: ['PRIVACY & CLOUD', 'SECURE VAULT', 'NO 3RD PARTY'],
+        description: '<strong>KinFiles</strong> organizes your and your family’s essential records (IDs, property papers, academic degrees, medical records) while syncing them directly to your personal Google Drive account via official OAuth. Zero files are stored on intermediary servers.',
+        features: [
+          'Direct Google Drive API sync: zero files stored on third-party servers',
+          'Multi-member family profiles (Parents, Siblings, Children)',
+          'Category tagging: Medical, Legal, Academic, Financial',
+          'Client-side metadata encryption & instant search'
+        ],
+        mockupHeader: 'KinFiles Family Vault',
+        mockupStatus: '● Connected to User Google Drive · 0% Intermediary Data',
+        mockupContent: '[ Vault Status ]<br>4 Members Configured · 128 Documents Synced · Encrypted Backups Up to Date',
+        mockupBadges: ['Google Drive Synced', '100% Private'],
+        primaryBtn: { text: 'Get KinFiles Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20Request%20for%20KinFiles%20App' },
+        secondaryBtn: { text: 'Private Deployment / Buy', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=KinFiles%20Custom%20Deployment' },
+        tutorialBtn: null
+      },
+      'geobound': {
+        name: 'GeoBound Spatial Viewer',
+        tagline: 'Instant In-Browser Shapefile & GeoJSON Satellite Visualizer',
+        badges: ['GIS & WEB', 'FREE TOOL', 'ZERO INSTALL'],
+        description: '<strong>GeoBound</strong> is an in-browser geospatial utility designed to let researchers drag and drop ESRI Shapefiles (.shp, .zip), GeoJSON, and satellite index data for instant visual inspection and attribute queries without waiting for heavy GIS software to load.',
+        features: [
+          'Drag-and-drop ESRI Shapefile and GeoJSON parser',
+          'Interactive satellite basemaps (Esri Satellite, OpenStreetMap)',
+          'Attribute table inspector & coordinate query tool',
+          'Instant polygon area and perimeter calculator'
+        ],
+        mockupHeader: 'GeoBound Web GIS Engine',
+        mockupStatus: '● Vector Layer: Active · Coordinate System: EPSG:4326',
+        mockupContent: '[ Active Layer: Coastal_Vegetation_Buffer.geojson ]<br>Features: 124 Polygons · Bounds: Indus Delta Sector 1',
+        mockupBadges: ['Zero Installation', 'Client-Side Parsing'],
+        primaryBtn: { text: 'Access GeoBound Free', icon: '↓', url: 'mailto:info@sarmadmahar.com?subject=Access%20GeoBound%20Viewer' },
+        secondaryBtn: { text: 'Custom GIS Web Tool', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Custom%20GIS%20Web%20App%20Inquiry' },
+        tutorialBtn: null
+      },
+      'envirodata': {
+        name: 'EnviroData Carbon Engine',
+        tagline: 'Standardized Carbon Biomass & GHG Sequestration Estimator',
+        badges: ['COMMERCIAL', 'RESEARCH AUDIT', 'IPCC COMPLIANT'],
+        description: '<strong>EnviroData Carbon Engine</strong> is a standardized scientific calculator suite built for environmental science researchers, institutions, and carbon audit consultants to compute biomass carbon stocks, tree sequestration rates, and GHG protocol compliance reports.',
+        features: [
+          'Standardized IPCC & GHG Protocol conversion factors',
+          'Forest biomass to CO2e sequestered calculation formulas',
+          'Exportable institutional audit reports and PDF certificates',
+          'Tailored for carbon credit estimation & sustainability projects'
+        ],
+        mockupHeader: 'EnviroData Audit System',
+        mockupStatus: '● Protocol: IPCC Tier 2 / GHG Protocol Standards',
+        mockupContent: '[ Calculation Result: Mangrove Stand Sector A ]<br>Biomass: 142.6 t/ha · Total Carbon Sequestration: 523.4 t CO2e',
+        mockupBadges: ['Audit Certified', 'Exportable PDF'],
+        primaryBtn: { text: 'Contact to Buy / License', icon: '↗', url: 'mailto:info@sarmadmahar.com?subject=Inquiry%20to%20Buy%20EnviroData%20Carbon%20Engine' },
+        secondaryBtn: { text: 'Request Demo Session', icon: '✉', url: 'mailto:info@sarmadmahar.com?subject=Demo%20Request%20EnviroData' },
+        tutorialBtn: null
+      }
+    };
+
+    // MODAL LOGIC
+    const modal = document.getElementById('app-modal');
+    const modalBackdrop = document.getElementById('app-modal-backdrop');
+    const modalCloseBtn = document.getElementById('app-modal-close');
+    const modalContent = document.getElementById('modal-dynamic-content');
+
+    function openAppModal(appId) {
+      const app = appsData[appId];
+      if (!app) return;
+
+      const badgesHtml = app.badges.map((b, i) => {
+        let cls = 'badge-version';
+        if (i === 0) cls = 'badge-featured';
+        else if (b.includes('FREE')) cls = 'badge-free';
+        else if (b.includes('PRO') || b.includes('COMMERCIAL')) cls = 'badge-pro';
+        return `<span class="badge-tag ${cls}">${b}</span>`;
+      }).join(' ');
+
+      const featuresHtml = app.features.map(f => `
+        <div class="app-feature-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>${f}</span>
+        </div>
+      `).join('');
+
+      const mockupBadgesHtml = app.mockupBadges.map((b, i) => `
+        <span style="font-size: 9px; padding: 3px 8px; border-radius: 4px; background: ${i === 0 ? 'rgba(14, 165, 233, 0.15)' : 'rgba(34, 197, 94, 0.15)'}; color: ${i === 0 ? 'var(--accent)' : '#4ade80'};">${b}</span>
+      `).join(' ');
+
+      let ctaButtonsHtml = `
+        <a class="button button-primary" href="${app.primaryBtn.url}">
+          ${app.primaryBtn.text} <span>${app.primaryBtn.icon}</span>
+        </a>
+      `;
+
+      if (app.secondaryBtn) {
+        ctaButtonsHtml += `
+          <a class="button button-outline" href="${app.secondaryBtn.url}">
+            ${app.secondaryBtn.text} <span>${app.secondaryBtn.icon}</span>
+          </a>
+        `;
+      }
+
+      if (app.tutorialBtn) {
+        ctaButtonsHtml += `
+          <a class="button button-outline" href="${app.tutorialBtn.url}" target="_blank" rel="noreferrer" title="Watch Video Tutorial">
+            ${app.tutorialBtn.text} <span style="font-size: 13px;">${app.tutorialBtn.icon}</span>
+          </a>
+        `;
+      }
+
+      modalContent.innerHTML = `
+        <div class="featured-app-layout" style="margin: 0;">
+          <div>
+            <div class="app-meta-badges">
+              ${badgesHtml}
+            </div>
+
+            <div class="app-title-group">
+              <h2 style="font-size: clamp(28px, 3.4vw, 42px);">${app.name}</h2>
+              <span class="app-tagline">${app.tagline}</span>
+            </div>
+
+            <p class="app-description">${app.description}</p>
+
+            <div class="app-feature-list">
+              ${featuresHtml}
+            </div>
+
+            <div class="app-cta-row">
+              ${ctaButtonsHtml}
+            </div>
+          </div>
+
+          <div class="app-preview-visual">
+            <div class="preview-screen-mockup">
+              <div class="mockup-header-dots">
+                <span class="mockup-dot"></span>
+                <span class="mockup-dot"></span>
+                <span class="mockup-dot"></span>
+              </div>
+              <div style="font-family: var(--display); font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 6px;">
+                ${app.mockupHeader}
+              </div>
+              <div style="font-size: 11px; color: var(--accent); margin-bottom: 12px;">
+                ${app.mockupStatus}
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.04); border: 1px dashed var(--line); border-radius: 8px; padding: 12px; font-size: 11px; color: var(--muted); line-height: 1.5;">
+                ${app.mockupContent}
+              </div>
+              <div style="display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap;">
+                ${mockupBadgesHtml}
+              </div>
+            </div>
+            <div style="font-size: 11px; color: var(--faint); text-align: center;">
+              Built &amp; Maintained by Sarmad Mahar · info@sarmadmahar.com
+            </div>
+          </div>
+        </div>
+      `;
+
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeAppModal() {
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    // Attach click events to small cards
+    document.querySelectorAll('.store-card[data-app]').forEach(card => {
+      card.addEventListener('click', () => {
+        const appId = card.getAttribute('data-app');
+        openAppModal(appId);
+      });
+    });
+
+    modalCloseBtn.addEventListener('click', closeAppModal);
+    modalBackdrop.addEventListener('click', closeAppModal);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) {
+        closeAppModal();
+      }
+    });
+
+    // Category Filter Buttons
+    const filterBtns = document.querySelectorAll('.store-pill-filter[data-filter]');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        document.querySelectorAll('.store-card[data-category]').forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Theme toggle
+    const themeToggle = document.querySelector('[data-theme-toggle]');
+    const themeIcon = document.querySelector('[data-theme-icon]');
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const current = document.documentElement.dataset.theme;
+        const next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem('sarmad-theme', next);
+      });
+    }
+  </script>
 </body>
 </html>
